@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Random;
 
-public class DataBaseWord extends DataBaseHandler {
+public class DataBaseWord extends DataBase {
 
     public void addWords(String englishWord, String russianWord) {
         try {

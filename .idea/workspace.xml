@@ -6,57 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5351f74e-2f20-413a-8912-ce3957b1423c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EnglishWords_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/github_pengrad_java_telegram_bot_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnglishWords.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/annotations-13.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/annotations-13.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/annotations-13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/java-telegram-bot-api-6.1.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/java-telegram-bot-api-6.1.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/java-telegram-bot-api-6.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-1.4.10-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-1.4.10-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-1.4.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-common-1.4.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-common-1.4.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-common-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-1.4.10-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-1.4.10-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-1.4.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-1.4.10-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-1.4.10-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-1.4.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/logging-interceptor-4.9.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/logging-interceptor-4.9.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/logging-interceptor-4.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.30-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/okhttp-4.9.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/okhttp-4.9.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/okhttp-4.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/okio-2.8.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/okio-2.8.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/okio-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/protobuf-java-3.19.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/protobuf-java-3.19.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/protobuf-java-3.19.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBaseUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBaseWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnglishWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/слова.txt" afterDir="false" />
+    <list default="true" id="5351f74e-2f20-413a-8912-ce3957b1423c" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataBaseBotPhrases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataBaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataBaseLogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataBaseLogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataBaseUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataBaseUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataBaseWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataBaseWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnglishWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnglishWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +59,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager" selected="Application.EnglishWords">
@@ -134,6 +93,21 @@
       <option name="presentableId" value="Default" />
       <updated>1660161172740</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1660251400569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660251400569</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first">
+      <created>1660251435407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660251435407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,5 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>

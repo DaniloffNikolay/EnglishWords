@@ -3,7 +3,7 @@ import com.pengrad.telegrambot.model.Update;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class DataBaseLogs extends DataBaseHandler {
+public class DataBaseLogs extends DataBase {
 
     public void addLog(Update update) {
         String insert = "INSERT INTO `translatebot`.`logs` (`update_id`, `message_id`, `chatId`, `firstName`, `lastName`, `username`, `languageCode`, `text`) " +

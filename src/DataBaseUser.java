@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class DataBaseUser extends DataBaseHandler {
+public class DataBaseUser extends DataBase {
 
     public void singUpUser(long chatId, String firstName, String lastName, String userName, String lastText) {
         try {

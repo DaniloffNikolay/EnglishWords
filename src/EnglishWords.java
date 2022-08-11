@@ -13,10 +13,11 @@ public class EnglishWords {
         DataBaseUser dbUser = new DataBaseUser();
         DataBaseWord dbWord = new DataBaseWord();
         DataBaseLogs dbLogs = new DataBaseLogs();
+        DataBaseBotPhrases dbBotPhrases = new DataBaseBotPhrases();
 
         ArrayList<Long> array = dbUser.takeAllUsersId();
         for (Long chatId : array) {
-            bot.execute(new SendMessage(chatId, "Я снова работаю! И кстати, я научился делать много нового."));
+            bot.execute(new SendMessage(chatId, dbBotPhrases.getPhrase("welcome") + " Я снова работаю! И кстати, я научился делать много нового."));
         }
 
         bot.setUpdatesListener(updates -> {
@@ -30,9 +31,9 @@ public class EnglishWords {
                 if (dbUser.findUser(chatId)) {
                     //Пользователь найден
                     if (dbWord.check(englishWord, userText)) {
-                        bot.execute(new SendMessage(chatId, "Правильно!"));
+                        bot.execute(new SendMessage(chatId, dbBotPhrases.getPhrase("congratulation")));
                     } else {
-                        bot.execute(new SendMessage(chatId, "Ошибка! Правильный перевод: " + dbWord.translateEnglishWord(englishWord)));
+                        bot.execute(new SendMessage(chatId, dbBotPhrases.getPhrase("condolences") + " Правильный перевод: " + dbWord.translateEnglishWord(englishWord)));
                     }
                 } else {
                     //Добавление пользователя в базу

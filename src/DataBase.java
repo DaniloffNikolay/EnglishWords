@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class DataBaseHandler {
+public class DataBase {
     Connection dbConnection;
     private String dbHost = "localhost";
     private String dbPort = "3306";
