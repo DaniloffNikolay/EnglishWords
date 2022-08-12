@@ -6,11 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5351f74e-2f20-413a-8912-ce3957b1423c" name="Changes" comment="добавил варианты ответов">
-      <change afterPath="$PROJECT_DIR$/src/Bot.java" afterDir="false" />
+    <list default="true" id="5351f74e-2f20-413a-8912-ce3957b1423c" name="Changes" comment="добавил меню и проверку на выбранный тест">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataBaseUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataBaseUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnglishWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnglishWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataBaseLogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataBaseLogs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660258022754</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавил меню и проверку на выбранный тест">
+      <created>1660263163130</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660263163130</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +133,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
     <MESSAGE value="добавил варианты ответов" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил варианты ответов" />
+    <MESSAGE value="добавил меню и проверку на выбранный тест" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил меню и проверку на выбранный тест" />
   </component>
 </project>

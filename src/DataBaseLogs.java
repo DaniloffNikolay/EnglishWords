@@ -17,4 +17,14 @@ public class DataBaseLogs extends DataBase {
             System.out.println("не получилось добавить в базу addLog");
         }
     }
+    public void addLogNull(Update update) {
+        String insert = "INSERT INTO `translatebot`.`logs` (`update_id`, `message_id`, `chatId`, `firstName`, `lastName`, `username`, `languageCode`, `text`) " +
+                "VALUES ('" + update.updateId() + "', '0', '0', 'null', 'null', 'null', 'null', 'null');";
+        try {
+            PreparedStatement prSt = getDBConnection().prepareStatement(insert);
+            prSt.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println("не получилось добавить в базу addLog");
+        }
+    }
 }
